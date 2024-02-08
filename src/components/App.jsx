@@ -1,16 +1,19 @@
+import { ContainerMain, WraperBox } from "./App.styled";
+import Dashboard from "./Dasboard/Dashboard";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <WraperBox>
+      <ContainerMain>
+        <Dashboard />
+
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+      </ContainerMain>
+    </WraperBox>
   );
 };
