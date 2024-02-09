@@ -34,7 +34,6 @@ export const WraperConteinersImg = styled.div`
 export const SectionContents = styled.h4`
     font-weight: 400;
     font-size: 14px;
-    /* line-height: 1.5; */
     color: ${color.greyColor};
     margin-bottom: 4px;
 `
@@ -52,8 +51,7 @@ export const WraperConteinersPercentage = styled.div`
     gap: 3px;
 `
 
-export const PercentagePerMonthText = styled.p`
-  
+export const PercentagePerMonthText = styled.p`  
     font-size: 12px;
     color: rgb(41, 45, 50);
 `
@@ -80,12 +78,10 @@ export const WraperConteinerMembers = styled.div`
     height: 84px;
     margin-right: 55px;
 `
-/////////////////////////////
+
 export const PercentagePerMonthDown = styled.span`
     color: ${color.redPrimeori};
 `
-////////////////////////////////
-
 
 export const WraperConteinerActiveNow = styled.div`
     display: flex;
@@ -99,8 +95,8 @@ export const WraperConteinerActiveNow = styled.div`
 export const WraperConteinerActiveNowImg = styled.div`
     display: flex;
     align-items: center;
-
 `
+
 export const UserPhoto = styled.img`
   width: 26px;
   height: 26px;

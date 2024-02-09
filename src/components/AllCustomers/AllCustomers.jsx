@@ -1,7 +1,7 @@
-
 import { HeaderActivMembers, HeaderTitle, InputWrapper, SearchInput, SearchSelect, WraperAllCustomers, WraperHeaderInf, WraperHeaderMenuSearch } from "./AllCustomers.styled";
 import icons from '../../img/svg/symbol-defs.svg';
 import Table from "components/Table/Table";
+import LowerTechnicalBlock from "components/LowerTechnicalBlock/LowerTechnicalBlock";
 
 export default function AllCustomers() {
     return (
@@ -10,7 +10,6 @@ export default function AllCustomers() {
                 <div>
                     <HeaderTitle>All Customers</HeaderTitle>
                     <HeaderActivMembers>Active Members</HeaderActivMembers>
-
                 </div>
                 <WraperHeaderMenuSearch>
                     <InputWrapper>
@@ -28,6 +27,8 @@ export default function AllCustomers() {
             </WraperHeaderInf>
 
             <Table />
+
+            <LowerTechnicalBlock />
             
         </WraperAllCustomers>
     )

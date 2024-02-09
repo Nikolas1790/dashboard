@@ -8,8 +8,7 @@ export const WraperAllCustomers = styled.div`
     height: 812px;
     border-radius: 30px;
     background: ${color.whitePrimary};
-    padding: 30px 44px 40px 38px; 
-  
+    padding: 34px 44px 40px 38px;   
 `
 
 export const WraperHeaderInf = styled.div`
@@ -26,13 +25,13 @@ export const HeaderTitle = styled.h2`
     font-weight: 600;
     margin-bottom: 7px;
 `
+
 export const HeaderActivMembers = styled.p`
     color: rgb(22, 192, 152);
 `
 
 export const WraperHeaderMenuSearch = styled.div`
     display: flex;
-
 `
 export const InputWrapper = styled.div`
     display: flex;
@@ -61,11 +60,4 @@ export const SearchSelect = styled.select`
     color: rgb(126, 126, 126);
     background: rgb(249, 251, 255);
     border-radius: 10px; 
-
 `
-
-// export const SearchSelectChapter = styled.span`
-//     color: red;
-    
-
-// `

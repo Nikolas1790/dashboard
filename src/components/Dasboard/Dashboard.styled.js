@@ -10,33 +10,27 @@ export const Logo = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 64px;
-
-
 `
 export const LogoPhrase = styled.div`
-
     font-size: 26px;
-    font-weight: 600;
-    
-
+    font-weight: 600;  
 `
 
 export const LogoSpan = styled.span`
-
     font-size: 10px;
     font-weight: 500;
     color: ${color.secondaryGray};
-
 `
-
 
 export const IconLogo = styled.svg`
     margin-right: 8px;
 `
-////////////////////////////////////////
+
 export const NavList = styled.ul`
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    width: 231px;
     gap: 40px;
     margin-bottom:400px;
 `
@@ -49,13 +43,17 @@ export const NavLi = styled.li`
 `
 export const NavLiActive = styled.li`
     display: flex;
-    align-items: center;
+    align-items: center; 
     color: ${color.whitePrimary};
+
+    width: 250px;
     background:  ${color.lightBlue};
     border-radius: 8px;
     padding: 11px;
     box-sizing: border-box;
-
+    margin: -10px  0 -10px -10px;
+    
+    
 `
 
 export const IconSvg = styled.svg`
@@ -65,7 +63,7 @@ export const IconSvg = styled.svg`
 export const IconArrowRightSvg = styled.svg`
     margin-left: auto;
 `
-////////////////////////////////
+
 export const AdvertisingGetProNow = styled.div`
     display: flex;
     align-items: center;
@@ -78,7 +76,6 @@ export const AdvertisingGetProNow = styled.div`
     background: linear-gradient(to bottom right, rgb(234, 171, 240), ${color.durckBlue});
 
     margin-bottom: 46px;
-
 `
 
 export const AdvertisingGetProNowText = styled.p`
@@ -89,14 +86,11 @@ export const AdvertisingGetProNowText = styled.p`
     margin-bottom: 20px;
     width: 183px;
 
-    font-weight: 600;
-   
+    font-weight: 600;   
 
     text-align: center; 
     color: ${color.whitePrimary};
 `
-
-/////////// button /////
 
 export const GetProNowButton = styled.button`
     display: flex;
@@ -104,8 +98,6 @@ export const GetProNowButton = styled.button`
     justify-content: center;
 
     margin-bottom: 20px;
-    /* width: 203px; */
-    /* height: 40px; */
     padding: 10px 55px;
     font-weight: 600;
     border-radius: 20px;
@@ -114,9 +106,7 @@ export const GetProNowButton = styled.button`
     color: ${color.durckBlue};
 `
 
-//////////////////////////////
-
-export const ProgectManager = styled.div`
+export const ProgectManagerr = styled.div`
     display: flex;
     align-items: center;
 `

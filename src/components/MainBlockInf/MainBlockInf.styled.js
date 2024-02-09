@@ -15,14 +15,13 @@ export const GreetingsBlock = styled.div`
     justify-content: space-between; 
     align-items: center; 
     margin-bottom: 40px;
-    /* height: 100px;  */
 `
 
 export const TextGreetings = styled.p`
     font-size: 24px;
     font-weight: 500;
 `
-/////////////////////// input /////////////////////////
+
 export const InputWrapper = styled.div`
     display: flex;
     align-items: center;
@@ -40,5 +39,3 @@ export const SearchInput = styled.input`
     width: 100%;
     background: transparent;
 `
-
-//////////////////////////////////////////////////////

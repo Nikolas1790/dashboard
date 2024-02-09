@@ -1,20 +1,8 @@
+import { arrPhotoUsers } from 'costumerData';
 import icons from '../../img/svg/symbol-defs.svg';
-import user1 from '../../img/activeMembers/user1.jpg';
-import user2 from '../../img/activeMembers/user2.jpg';
-import user3 from '../../img/activeMembers/user3.jpg';
-import user4 from '../../img/activeMembers/user4.jpg';
-import user5 from '../../img/activeMembers/user5.jpg';
 import { NumberOfPeopl, PercentagePerMonth, PercentagePerMonthDown, PercentagePerMonthText, RightBar, SectionContents, UserPhoto, WraperConteinerActiveNow, WraperConteinerActiveNowImg, WraperConteinerMembers, WraperConteinerTotalCustomers, WraperConteinersImg, WraperConteinersPercentage, WraperSummaryInf} from "./SummaryInformation.styled";
 
 export default function SummaryInformation() {
-    const arrPhotoUsers =[
-        { src: user1, alt: 'User Photo 1' },
-        { src: user2, alt: 'User Photo 2' },
-        { src: user3, alt: 'User Photo 3' },
-        { src: user4, alt: 'User Photo 4' },
-        { src: user5, alt: 'User Photo 5' },
-    ]
-
     return (
         <WraperSummaryInf>
             <WraperConteinerTotalCustomers>
@@ -82,7 +70,6 @@ export default function SummaryInformation() {
                     </WraperConteinerActiveNowImg>
                 </div>
             </WraperConteinerActiveNow>
-
 
         </WraperSummaryInf>
     )
