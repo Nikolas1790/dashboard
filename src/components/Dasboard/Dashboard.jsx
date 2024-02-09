@@ -1,4 +1,4 @@
-import { AdvertisingGetProNow, AdvertisingGetProNowText, GetProNowButton, IconArrowRightSvg, IconLogo, IconSvg, Logo, LogoPhrase, LogoSpan, NavLi, NavLiActive, NavList,  ProgectManagerName, ProgectManagerPhoto, ProgectManagerPosition, WraperDashboard } from "./Dashboard.styled"
+import { AdvertisingGetProNow, AdvertisingGetProNowText, GetProNowButton, IconArrowRightSvg, IconLogo, IconSvg, Logo, LogoPhrase, LogoSpan, NavLi, NavLiActive, NavList, WraperDashboard } from "./Dashboard.styled"
 import icons from '../../img/svg/symbol-defs.svg';
 import ProgectManager from "components/ProgectManager/ProgectManager";
 
