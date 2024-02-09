@@ -8,7 +8,7 @@ export const WraperAllCustomers = styled.div`
     height: 812px;
     border-radius: 30px;
     background: ${color.whitePrimary};
-    padding: 34px 44px 40px 38px;   
+    padding: 34px 44px 44px 38px;   
 `
 
 export const WraperHeaderInf = styled.div`
