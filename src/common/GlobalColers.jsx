@@ -10,7 +10,8 @@ const color = {
     lightGreen: ' rgb(0, 172, 79)',
    
     greyTextColor: 'rgb(117, 117, 117)',
-       
+    fonColor : '#f1f2f4',   
+    greyColor: 'rgb(172, 172, 172)',
   };
   
   export default color;

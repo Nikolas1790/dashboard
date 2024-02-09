@@ -9,6 +9,5 @@ export const WraperBox = styled.div`
 export const ContainerMain = styled.div`
   display: flex;
   align-items: center;
-  flex-Direction: column;
   max-width: 1440px;
 `

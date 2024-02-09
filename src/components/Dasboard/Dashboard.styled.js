@@ -75,7 +75,7 @@ export const AdvertisingGetProNow = styled.div`
     height: 150px;
     padding: 26px 23px 22px 24px;
     border-radius: 20px;
-    background: blue;
+    background: linear-gradient(to bottom right, rgb(234, 171, 240), ${color.durckBlue});
 
     margin-bottom: 46px;
 
